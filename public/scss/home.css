@@ -1,0 +1,266 @@
+body{
+    font-family: 'Inter', sans-serif !important;
+    
+}
+
+#header{
+    font-size:2rem;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600;
+    
+    color: #000018 !important;
+   
+}
+#header:hover{
+    color: #000 !important;
+}
+.navbar{
+    background: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+a{
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    color: #000018 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+a:hover{
+    background: none !important;
+    color: #2d2dfe !important;
+
+}
+#col-img{
+    background: url('../image/agency.jpg');
+    background-position: center;
+    background-size: cover;
+    height: auto;
+
+}
+#btn-primary{
+    background: #2d2dfe;
+    color: #fff;
+}
+#btn-primary:hover{
+    background: #4c4cfd;
+    transition: .5s;
+}
+#btn-secondary{
+    border-color: #2d2dfe;
+    color: #2d2dfe;
+}
+#btn-secondary:hover{
+    background: #000018;
+    color: #fff;
+    border-color: #000018;
+    transition: .5s;
+}
+#col-title{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    
+}
+
+#col-md div{
+    margin-left: 20px;
+    background: #f0f0ff;
+}
+#col-md .subtitle{
+    margin-top: 10px;
+}
+#col-md button{
+    margin-left:1rem;
+}
+#col-md .title{
+    color: #000;
+}
+#sec{
+    text-align: center;
+}
+#sec .subtitle{
+    margin-top: 10px;
+}
+
+#about{
+    background: #fff !important;
+    width: 100%;
+}
+#about .title{
+ margin-top:1rem;   
+}
+#about .subtitle{
+    margin-top: 10px;
+}
+.level-item{
+    background: #f0f0ff;
+    height:200px;
+}
+.level-item:nth-child(2){
+    background: #f4f4f4;
+}
+.level-item:nth-child(4){
+    background: #f4f4f4;
+}
+.level-item{
+    border: 1px solid #04042209;
+}
+
+#sec{
+    margin-top: 4rem;
+}
+#client img{
+    margin-top: 2rem;
+}
+.box{
+    box-shadow: none;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+#col-1{
+    background: #f0f0ff;
+    width: 100%;
+  
+}
+#blog-col{
+    font-family: 'Cardo', serif;
+    color: #2d2dfe;
+    display: block !important;
+}
+#blog-col-2{
+    cursor: pointer;
+    text-transform: capitalize;
+    
+}
+#blog-col-2:hover{
+    color: #2d2dfe;
+}
+#hoverable{
+    cursor: pointer;
+
+}
+#hoverable:hover{
+    color: #2d2dfe;
+}
+
+@media (max-width:991){
+    #col-img{
+        display: none;
+    }
+}
+
+@media screen and (min-width:991px){
+    #blog-sec{
+        margin-top: 7rem;
+    }
+    #underline{
+        position: relative;
+     
+    }
+    #underline:after{
+        content: '';
+        position: absolute;
+        display:block;
+        width: 0;
+        height: 2px;
+        background: #2d2dfe;
+        transition: .5s;
+        margin-top:2rem;
+    }
+    #underline:hover::after{
+        width: 80%;
+    }
+}
+.bd-focus-item:hover{
+    background: #2d2dfe !important;
+    
+    transition: .5s;
+    border-radius: 4px;
+}
+.bd-focus-item:hover p{
+    color: #fff;
+}
+.bd-focus-item:hover strong{
+    color: #fff;
+}
+.is-uppercase{
+    color: #000;
+}
+iframe{
+    width: 100%;
+}
+#footer{
+    background: #f0f0ff;
+}
+
+@media  screen and (min-width:991px){
+    #social{
+        margin-left: 2rem;
+    }    
+
+    #social .title{
+        margin-left:2rem;
+    }
+   
+}
+
+#social span{
+  
+   cursor: pointer;
+}
+#social span:hover{
+    color: #2d2dfe;
+    transition: .5s;
+}
+.sec li a{
+    margin-top: 10px;
+    display:inline-block;
+}
+#main{
+    background: #11052C;
+    color: #fff;
+}
+#main a{
+    color: #fff !important;
+}
+#main strong{
+    color: #fff;
+}
+.is-cardio{
+    font-family: 'Cardo', serif;
+}
+.is-underline{
+    text-decoration: underline;
+}

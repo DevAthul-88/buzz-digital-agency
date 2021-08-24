@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../lib/bulma/css/bulma.css">
+    <link rel="stylesheet" href="../scss/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../scss/bulma-pricingtable.min.css">
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+<title>Pricing</title>
+</head>
+<body>
+    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/" id="header">
+            Buzz agency
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" id="underline" href="/">
+              Home
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" >
+                Services
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/services/website">
+                  Website
+                </a>
+                <a class="navbar-item" href="/services/mobile">
+                  Mobile
+                </a>
+                <a class="navbar-item" href="/services/market">
+                 Market
+                </a>
+
+                <a class="navbar-item" href="/services/video">
+                  Video
+                 </a>
+                
+              </div>
+            </div>
+
+            
+
+            
+          <a href="/pricing" class="navbar-item" id="underline">Pricing</a>
+          <a href="/about" class="navbar-item" id="underline">About</a>
+          <a href="/contact" class="navbar-item" id="underline">Contact</a>
+          </div>
+      
+           
+          </div>
+
+
+        </div>
+      </nav>
+
+
+
+      
+<div class="section" id="price">
+  
+    <h1>PRICING PLANS</h1>
+    <h1 class="title is-cardio" style="margin-top: 1rem;">
+      The Best Solutions
+    for Our Clients
+    </h1>
+    
+    </div>
+    
+    
+    
+    
+    
+    <div class="pricing-table">
+     
+    
+      <div class="pricing-plan is-warning">
+        <div class="plan-header">Basic</div>
+        <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>40</span>/month</div>
+        <div class="plan-items">
+          <div class="plan-item">Web Development</div>
+          <div class="plan-item">Graphic Design</div>
+          <div class="plan-item">2 year support</div>
+          <div class="plan-item">Mobile Development</div>
+          <div class="plan-item">-</div>
+          <div class="plan-item">-</div>
+        </div>
+        <div class="plan-footer">
+          <button class="button is-fullwidth">Choose</button>
+        </div>
+      </div>
+    
+      <div class="pricing-plan is-active">
+        <div class="plan-header">Standard</div>
+        <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>60</span>/month</div>
+        <div class="plan-items">
+          <div class="plan-item">Web Development</div>
+          <div class="plan-item">Graphic Design</div>
+          <div class="plan-item">4 year support</div>
+          <div class="plan-item">Mobile Development</div>
+          <div class="plan-item">Cyber Security Services</div> 
+          <div class="plan-item">-</div>
+        </div>
+        <div class="plan-footer">
+          <button class="button is-fullwidth">Choose</button>
+        </div>
+      </div>
+    
+      <div class="pricing-plan is-danger">
+        <div class="plan-header">Premium</div>
+        <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>100</span>/month</div>
+        <div class="plan-items">
+          <div class="plan-item">Web Development</div>
+          <div class="plan-item">Graphic Design</div>
+          <div class="plan-item">6 year support</div>
+          <div class="plan-item">Mobile Development</div>
+          <div class="plan-item">Cyber Security Services</div> 
+          <div class="plan-item">Video Production</div>
+        </div>
+        <div class="plan-footer">
+          <button class="button is-fullwidth">Choose</button>
+        </div>
+      </div>
+    </div>
+
+
+      
+
+<footer class='footer' id="footer">
+<div class="columns">
+  <div class="column">
+    <h1 class="title">
+      Subscribe to our newsletter
+    </h1>
+    <h1 class="subtitle mt-1">
+      The latest insights, resources, expert opinions and company news.
+    </h1>
+    <button class="button is-outlined is-medium" id="btn-primary">Subscribe</button>
+  </div>
+
+  <div class="column" id='social'>
+    <h1 class="title">Follow us on </h1>
+    <span class="title">
+      <i class="fab fa-facebook"></i>
+    </span>
+    <span class="title">
+      <i class="fab fa-twitter-square"></i>
+    </span>
+    <span class="title">
+      <i class="fab fa-instagram-square"></i>
+    </span>
+    <span class="title">
+      <i class="fab fa-pinterest-square"></i>
+    </span>
+
+    <span class="title">
+      <i class="fab fa-dribbble"></i>
+    </span>
+
+   
+
+    <div class="sec p-5">
+      
+        <ul>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+
+          <li>
+            <a href="#">Services</a>
+          </li>
+
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+
+        </ul>
+
+    </div>
+
+  </div>
+</div>
+</footer>
+<footer class="footer" id="main">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+
+      <script src="../js/navbar.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script/>
+
+
+      </body>
+</html>
+
