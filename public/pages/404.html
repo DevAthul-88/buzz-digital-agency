@@ -14,11 +14,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../scss/bulma-pricingtable.min.css">
+<link rel="stylesheet" href="../scss/bulma-ribbon.css">
 <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-<title>Contact</title>
+<title>404</title>
 </head>
 <body>
     <nav class="navbar is-white" role="navigation" aria-label="main navigation">
@@ -52,18 +53,19 @@
                 <a class="navbar-item" href="/services/mobile">
                   Mobile
                 </a>
-                <a class="navbar-item" href="/services/market">
+                <a class="navbar-item"  href="/services/market">
                  Market
                 </a>
 
                 <a class="navbar-item" href="/services/video">
-                  Video
-                 </a>
+                    Video
+                   </a>
                 
               </div>
             </div>
 
             
+
             
           <a href="/pricing" class="navbar-item" id="underline">Pricing</a>
           <a href="/about" class="navbar-item" id="underline">About</a>
@@ -77,77 +79,34 @@
         </div>
       </nav>
 
-      <div class="section">
-        <h1>Contact</h1>
-        <h1 class="title mt-3 is-cardio">
-          Let’s work together
-        </h1>
-      
-      
-        <div class="section">
-          <div class="columns">
-            <div class="column">
-              <h1>CALL</h1>
-              <h1 class="title mt-4">573-676-0561</h1>
-            </div>
-      
-            <div class="column">
-             <h1>MEET</h1>
-             <h1 class="title mt-4">
-              60 E. San Pablo Rd.
-              Palm Bay, FL 32907
-             </h1>
-            </div>
-      
-          </div>
-      
-          <div class="columns">
-            <div class="column">
-              <h1>EMAIl</h1>
-              <h1 class="title mt-4">
-                Buzzagency@gmail.com
-              </h1>
-            </div>
-      
-            <div class="column">
-              <h1>Working Hours</h1>
-              <h1 class="title mt-4">
-                9:00am to 5pm Monday to Friday
-              </h1>
-            </div>
-            
-          </div>
-      
-        </div>
-      </div>
-      
-      
-      <div class="section" id="input-sec">
-        <h1 class="is-cardio">OR</h1>
-      
-      
-        <div class="columns">
-          <div class="column">
-           <div class="field">
-             <div class="controll">
-              <input type="text" class='input mt-4' placeholder='Your name'>
-              <input class="input mt-4 " type="text" placeholder="Email address">
-              <textarea class="textarea mt-4" placeholder="Your message"></textarea>
-              <button class="button is-outlined is-medium mt-4" id="btn-primary">Submit</button>
-            </div>
-           </div>
-          </div>
-      
-          <div class="column">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27990163234!2d-74.2598713985228!3d40.697670065868934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1629732667261!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-        </div>
+<div class="section">
+    <div class="columns">
+     <div class="column">
+         <h1 class="title">404 page not found</h1>
+         <h1 class="subtitle mt-4">
+            An unexpected error has occurred. Please contact the site owner.
+         </h1>
+         <button  class="button is-outlined is-medium home" id="btn-primary">Go back to happiness</button>
+     </div>
 
-        <h1 class="subtitle">
-            Schedule a meeting can help you to double revenue. So, tell us what you want we’ll be in touch with you shortly.
-        </h1>
-      </div>
-      
+     <div class="column">
+         <img src="../image/30.png" alt="404">
+     </div>
+    </div>
+</div>
+
+
+
+<div class="section contact">
+    <h1 class="title">
+        Get in touch any time for any help!
+    </h1>
+    <h1 class="subtitle mt-4">
+        We understand the importance of approaching each work integrally and believe in the power of simple.
+    </h1>
+    <button  class="button is-outlined is-medium contact" id="btn-primary">Contact Us</button>
+
+</div>
 
       
 
@@ -225,3 +184,34 @@
       </body>
 </html>
 
+<style>
+    .card{
+        background: #f0f0ff;
+        padding: 5px;
+        
+     
+    }
+
+    .ribbon{
+        background: #2d2dfe !important;
+        width: 100%;
+    }
+    .contact{
+        background: #f0f0ff;
+        margin-bottom: 2rem;
+    }
+</style>
+
+<script>
+ let contact = document.querySelector('.contact')
+
+ contact.addEventListener('click', function(){
+     window.location.href = '/contact'
+   
+ })
+
+ let home = document.querySelector('.home')
+ home.addEventListener('click', function(){
+     window.location.href = '/'
+ })
+</script>

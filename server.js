@@ -49,6 +49,11 @@ app.get('/services/' , function (req, res) {
     res.sendFile(path.join(__dirname, '/public/pages' , 'services.html'))
 })
 
+app.get('*' , function (req, res) {
+    res.status(404)
+    res.sendFile(path.join(__dirname, '/public/pages' , '404.html'))
+})
+
 
 const port = process.env.PORT || 3001
 
