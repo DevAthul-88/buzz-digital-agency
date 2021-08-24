@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "16.6.2"
+    "node": "16x"
   },
   "scripts": {
     "dev": "nodemon server.js",
