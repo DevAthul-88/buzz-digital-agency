@@ -1,5 +1,7 @@
-body{
+html , body{
     font-family: 'Inter', sans-serif !important;
+    height: 100%;
+    position: relative;
     
 }
 
@@ -17,8 +19,8 @@ body{
 .navbar{
     background: #fff;
     padding: 1rem;
-    position: sticky;
-    top: 0;
+    position: sticky !important;
+    top: 0 !important;
 }
 a{
     font-size: 1.1rem;
