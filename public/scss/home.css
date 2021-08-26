@@ -1,7 +1,6 @@
-html , body{
+ body{
     font-family: 'Inter', sans-serif !important;
-    height: 100%;
-    position: relative;
+ 
     
 }
 
@@ -265,4 +264,10 @@ iframe{
 }
 .is-underline{
     text-decoration: underline;
+}
+
+@media  screen and (max-width:991px){
+    #image{
+        display: none;
+    }
 }
